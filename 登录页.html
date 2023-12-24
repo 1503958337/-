@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            /* background-image: linear-gradient(to right, red, blue); */
+            background-image: url(./v2-17e7860bedaefb08e8c8dfde2da7c855_r.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .man {
+            width: 60%;
+            height: 60%;
+            background-color: rgba(255, 255, 255, 0.5);
+            border-radius: 50px;
+            box-shadow: 0 5px 15px rgba(20, 20, 20, 0.8);
+            backdrop-filter: blur(15px);
+            position: relative;
+            top: 100px;
+            display: flex;
+            /* flex-direction: column; */
+            justify-content: center;
+            align-items: center;
+            backdrop-filter: blur(35px);
+            position: relative;
+        }
+
+        .min {
+            /* background-color: rgba(255, 255, 255, 0.5); */
+            background-image: url(./OIP.jfif);
+            width: 300px;
+            height: 200px;
+            border-radius: 20px;
+            position: relative;
+            top: 50px;
+            margin-bottom: 100px;
+        }
+
+        from {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+        }
+
+        form p {
+            margin: 10px;
+            color: aliceblue;
+            margin-left: 10vh;
+        }
+
+        .an1,
+        .an2 {
+            border-radius: 5px;
+            background-color: rgba(255, 255, 255, 0.5);
+            margin: 20px;
+            position: relative;
+            border-color: aliceblue;
+        }
+
+        .an3 {
+            margin-left: 35vh;
+            background-color: rgba(255, 255, 255, 0.5);
+            color: black;
+            border-color: aliceblue;
+        }
+
+        .an1,
+        .an2,
+        .an3 {
+            backdrop-filter: blur(35px);
+        }
+
+        h1 {
+            position: relative;
+            right: 5vh;
+            font-family: "微软雅黑";
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="man">
+        <h1>登录</h1>
+        <div class="min"></div>
+        <form action="#" method="get" name="box">
+            <p>账号:<input type="text" name="usname" class="an1"></p>
+            <p>密码:<input type="password" name="pass" class="an2"></p>
+            <input type="submit" value="提交" class="an3">
+        </form>
+    </div>
+</body>
+
+</html>
